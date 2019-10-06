@@ -135,11 +135,15 @@ a {
 	float:left; 
 	margin-left: 20%;	
 	clear: both;
+	border-color: #C49D9D;
+	border-style: dashed;
 }
 .opinion_right {
 	float: right;
 	margin-right: 20%;
 	clear: both;
+	border-color: #C49D9D;
+	border-style: dashed;
 }
 div.profile {
 	border-style: dotted;
