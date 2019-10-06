@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Hind+Siliguri&display=swap');
 body{
-	background: linear-gradient(to bottom, #fec5c2 0%, #ffd69d 17%, #ffea99 34%, #bdf1c6 51%, #a6e1fc 68%, #bcbbee 100%);
+	background: linear-gradient(to bottom, #fec5c2 0%, #bcbbee 100%);
 }
 #flag {
     width: 75px;
@@ -9,6 +9,12 @@ body{
     left: 60%;
 }
 
+div{
+background-color: transparent;
+}
+table{
+background-color: transparent;	
+}
 
 div.header {
     padding: 25px;
@@ -177,13 +183,25 @@ div.profile:hover {
 div.profile:hover  h2 {
 	display: inline;
 	margin: auto;
+	animation-name: appear_h2;
+	animation-duration: 0.5s;
 }
 div.profile:hover  p{
 	display: block;
 	text-align: left;
-
+	animation-name: appear_p;
+	animation-duration: 0.5s;
 }
 
+@keyframes appear_p{
+	from {font-size: 0px;}
+	to {font-size: 11px;}
+}
+
+@keyframes appear_h2{
+	from {font-size: 0px;}
+	to {font-size: 25px;}
+}
 
 
 
