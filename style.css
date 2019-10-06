@@ -183,11 +183,6 @@ div.profile:hover  p{
 
 }
 
-@keyframes appear{
-	from {display: none;}
-	to {display: block;}
-}
-
 
 
 
