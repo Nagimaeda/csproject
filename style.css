@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Hind+Siliguri&display=swap');
+* {
+    background-color: #fec5c2;
+    
+}
+
+#title {
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
+    font-family: 'Francois One', sans-serif;
+}
+#flag {
+    width: 75px;
+    height: 47px;
+    position: absolute;
+    left: 60%;
+    
+}
+
+div.header {
+    padding: 25px;
+    font-size: 20px;
+    position: sticky;
+    border-bottom-color: #C49D9D;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    height: 50px;
+    width: 100%;
+}
+
+#homebutton {
+    float: right;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+div.title {
+    width: 25%;
+    border-bottom-color: #C49D9D;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    margin-top: 50px;
+    font-family: 'Francois One', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+    
+}
+p {
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+}
+
+#pros, #cons {
+    margin-top: 20px;
+    width: 49.895%;
+
+    text-align: center;
+}
+#pros {
+    float: left;
+    border-right-color: #C49D9D;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+#cons {
+    float: right;
+    border-left-color: #C49D9D;
+    border-left-style: solid;
+    border-left-width: thin;
+}
+#flag:hover{
+    animation-name: spin;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+li {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.list {
+    width: 50%;
+    margin: auto;
+}
+
+Idk what to name my ids waity lang
+div.tabs {
+    font-family: 'Francois One', sans-serif;
+}
+ 
+table {
+    font-size: 18px;
+    float: right;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+ 
+#berikul {
+    border-right-color: #C49D9D;
+    border-right-style: solid;
+    border-right-width: thin;
+    padding-right: 20px;
+}
+ 
+#berikuler {
+    padding-left: 20px;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
