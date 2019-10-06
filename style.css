@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Hind+Siliguri&display=swap');
-*{
+body{
 	background: linear-gradient(to bottom, #fec5c2 0%, #ffd69d 17%, #ffea99 34%, #bdf1c6 51%, #a6e1fc 68%, #bcbbee 100%);
 }
 #flag {
@@ -9,12 +9,6 @@
     left: 60%;
 }
 
-div{
-background-color: transparent;
-}
-table{
-background-color: transparent;	
-}
 
 div.header {
     padding: 25px;
