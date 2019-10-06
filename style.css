@@ -4,12 +4,6 @@
     
 }
 
-#title {
-    text-align: center;
-    line-height: 50px;
-    margin: auto;
-    font-family: 'Francois One', sans-serif;
-}
 #flag {
     width: 75px;
     height: 47px;
@@ -53,6 +47,10 @@ div.title {
 
 h1{
     font-size: 30px;
+	text-align: center;
+    line-height: 50px;
+    margin: auto;
+    font-family: 'Francois One', sans-serif;
 }
 h2{
     font-size: 25px;
@@ -105,7 +103,6 @@ li {
     margin: auto;
 }
 
-Idk what to name my ids waity lang
 div.tabs {
     font-family: 'Francois One', sans-serif;
 }
@@ -117,6 +114,7 @@ table {
     margin-bottom: auto;
     margin-right: 200px;
     margin-top: 20px;
+
 }
  
 #berikul {
@@ -124,6 +122,7 @@ table {
     border-right-style: solid;
     border-right-width: thin;
     padding-right: 20px;
+	padding-left: 20px;
 }
  
 #berikuler {
@@ -133,7 +132,16 @@ table {
 a {
     text-decoration: none;
 }
-
+.opinion_left {
+	float:left; 
+	margin-left: 20%;	
+	clear: both;
+}
+.opinion_right {
+	float: right;
+	margin-right: 20%;
+	clear: both;
+}
 
 
 
