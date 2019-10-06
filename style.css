@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Hind+Siliguri&display=swap');
+*{
+transition-duration: 0.5s;	
+}
 body{
 	background: linear-gradient(to bottom, #fec5c2 0%, #bcbbee 100%);
 }
