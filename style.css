@@ -9,6 +9,13 @@
     left: 60%;
 }
 
+div{
+background-color: transparent;
+}
+table{
+background-color: transparent;	
+}
+
 div.header {
     padding: 25px;
     font-size: 20px;
