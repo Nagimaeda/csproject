@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Hind+Siliguri&display=swap');
 * {
-    background-img: bg.png;
+    background-img: url("bg.png");
     
 }
 
