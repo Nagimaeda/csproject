@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Hind+Siliguri&display=swap');
 * {
-	background: #fec5c2;
+	background: linear-gradient(to bottom, #fec5c2 0%, #bcbbee 100%);
 }
 
 #flag {
