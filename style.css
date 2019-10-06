@@ -8,7 +8,6 @@
     height: 47px;
     position: absolute;
     left: 60%;
-    
 }
 
 div.header {
@@ -146,24 +145,50 @@ a {
 	border-style: dashed;
 }
 div.profile {
+	width: 200px;
+	height: 200px;
 	border-style: dotted;
 	border-color: black;
-	height: 200px;
-	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
 	clear: both;
-	
 }
+
 .profile img{
 	height: 200px;
 	width: 200px;
 	float:left; 
+	
 }
 .profile h2 {
+	display: none;
+	
+}
+.profile p {
+	display: none;
+}
+
+div.profile:hover {	
+	width: 35%;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+}
+div.profile:hover  h2 {
+	display: inline;
 	margin: auto;
 }
+div.profile:hover  p{
+	display: block;
+	text-align: left;
+
+}
+
+@keyframes appear{
+	from {display: none;}
+	to {display: block;}
+}
+
 
 
 
