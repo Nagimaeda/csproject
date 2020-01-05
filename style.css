@@ -208,7 +208,11 @@ div.profile:hover  p{
 	to {font-size: 25px;}
 }
 
+.container {
+	position: relative;
+}
 
-
-
-
+.container fieldset {
+	position: absolute;
+	top: 0;
+}
