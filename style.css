@@ -125,7 +125,7 @@ table {
 
 }
  
-#1 {
+#first {
     border-right-color: #C49D9D;
     border-right-style: solid;
     border-right-width: thin;
@@ -133,7 +133,7 @@ table {
 	padding-left: 20px;
 }
  
-#2 {
+#last {
     padding-left: 20px;
 }
  
