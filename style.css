@@ -212,7 +212,7 @@ div.profile:hover  p{
 	position: relative;
 }
 
-.container fieldset {
+.response {
 	position: absolute;
 	bottom: 0;
 }
