@@ -214,5 +214,5 @@ div.profile:hover  p{
 
 .container fieldset {
 	position: absolute;
-	top: 0;
+	bottom: 0;
 }
