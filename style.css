@@ -31,7 +31,7 @@ div.header {
     width: 100%;
 }
 
-#homebutton {
+#homebutton { // do we even need this?
     float: right;
     text-decoration: none;
     color: black;
